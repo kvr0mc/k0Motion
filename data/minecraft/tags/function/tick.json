@@ -1,6 +1,6 @@
 {
     "values":[
-        "mypack:core/tick"
+        "k0_motion:core/tick"
     ],
     "replace":false
 }

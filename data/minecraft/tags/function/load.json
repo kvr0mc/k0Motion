@@ -1,6 +1,6 @@
 {
     "values":[
-        "mypack:core/load"
+        "k0_motion:core/load"
     ],
     "replace":false
 }
