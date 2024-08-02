@@ -1,5 +1,6 @@
 {
     "values":[
+        "p_motion:system/load",
         "k0_motion:core/load"
     ],
     "replace":false
