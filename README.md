@@ -9,7 +9,7 @@ Minecraft JE 1.21
 
 **Apply motion with xyz values**
 ```mcfunction
-data modify storage k0:motion _.V set value [0.0,1.0,0.0]
+data modify storage k0:motion _.xyz set value [0.0,1.0,0.0]
 function #k0_motion:xyz
 ```
 

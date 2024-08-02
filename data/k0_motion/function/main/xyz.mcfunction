@@ -1,9 +1,9 @@
 
-execute unless data storage k0:motion _.V run data modify storage k0:motion _.V set value [0.0,0.0,0.0]
+execute unless data storage k0:motion _.xyz run data modify storage k0:motion _.xyz set value [0.0,0.0,0.0]
 
-execute store result score $x hb.Motion run data get storage k0:motion _.V[0] 10000
-execute store result score $y hb.Motion run data get storage k0:motion _.V[1] 10000
-execute store result score $z hb.Motion run data get storage k0:motion _.V[2] 10000
+execute store result score $x hb.Motion run data get storage k0:motion _.xyz[0] 10000
+execute store result score $y hb.Motion run data get storage k0:motion _.xyz[1] 10000
+execute store result score $z hb.Motion run data get storage k0:motion _.xyz[2] 10000
 
 execute if entity @s[type=player] run return run function #p_motion:xyz
 
