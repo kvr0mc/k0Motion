@@ -1,5 +1,5 @@
 
-data merge storage k0:motion {_:{V:[0,0,0]}}
+execute unless data storage k0:motion _.V run data modify storage k0:motion _.V set value [0.0,0.0,0.0]
 
 execute store result score $x hb.Motion run data get storage k0:motion _.V[0] 10000
 execute store result score $y hb.Motion run data get storage k0:motion _.V[1] 10000
