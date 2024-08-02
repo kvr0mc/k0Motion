@@ -1,4 +1,4 @@
-# Motion
+# k0Motion
 
 Motion datapack for Minecraft 1.21
 
