@@ -1,0 +1,6 @@
+{
+    "values":[
+        "mypack:core/load"
+    ],
+    "replace":false
+}
