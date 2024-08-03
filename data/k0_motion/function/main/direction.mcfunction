@@ -1,7 +1,5 @@
 
-execute unless data storage k0:motion _.power run data modify storage k0:motion _.power set value 1
-execute unless data storage k0:motion _.dir run data modify storage k0:motion _.dir set value [0.0,0.0,0.0]
+data modify storage k0:motion _.power set string storage k0:motion input.power 0 -1
+data modify storage k0:motion _.dir set from storage k0:motion input.dir
 
-function k0_motion:system/set_direction_vector with storage k0:motion _
-
-function k0_motion:main/xyz
+function k0_motion:system/direction

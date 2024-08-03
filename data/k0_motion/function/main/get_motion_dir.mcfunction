@@ -1,9 +1,9 @@
 
-execute unless data entity @s Motion run return 0
-
 data modify storage k0:motion _.dir set value [0.0d,0.0d,0.0d]
 
-function #k0_motion:get_motion
+execute unless data entity @s Motion run return 0
+
+function k0_motion:main/get_motion
 
 data modify storage k0:motion _.mx set from storage k0:motion _.motion[0]
 data modify storage k0:motion _.my set from storage k0:motion _.motion[1]
