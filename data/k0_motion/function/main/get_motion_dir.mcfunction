@@ -15,4 +15,4 @@ data modify storage k0:motion _.mz set string storage k0:motion _.mz 0 -1
 
 execute if data storage k0:motion _{mx:"0.0",my:"0.0",mz:"0.0"} run return 0
 
-execute positioned 0.0 0.0 0.0 summon marker run function k0_motion:system/get_motion_dir with storage k0:motion _
+execute positioned 0.0 0.0 0.0 summon marker run function k0_motion:system/set_motion_dir with storage k0:motion _
